@@ -14,3 +14,7 @@ This is a minimal setup to run a golang application in a local kubernetes cluste
 - Build the docker image: `docker build -t go-app .`
 - Apply the kubernetes deployment: `kubectl apply -f deployment.yaml`
 - Access the application: `kubectl port-forward svc/go-app 3000:3000 &` and open `http://localhost:3000` in your browser
+
+## src
+
+- https://kind.sigs.k8s.io/
